@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC2640R2FRSMR
+D SimpleLink Bluetooth low energy Wireless MCU
+K
+F http://www.ti.com/lit/gpn/cc2640r2f
+$ENDCMP
+#
+#End Doc Library

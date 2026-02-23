@@ -1,4 +1,4 @@
-26774369672488548
+26781456933340922
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69965,12 +69965,33 @@ Yellow 5381 Series LED
 2
 2
 Library
+694106301002
+
+
+0
+3
+3
+Library
 74AHC595BQ115
 SOT763-1.
 Integrated Circuit
 0
 17
 17
+Library
+61400416121
+61400416121
+Connector
+0
+6
+6
+Library
+ACZ11BR4E15FA120C
+ACZ11BR4E-15FA1-20C-1
+Connector
+0
+7
+7
 Library
 GWJTLRS1EMLVL5XX531
 GW JTLRS1.EM-LVL5-XX53-1-3
@@ -69985,6 +70006,13 @@ Integrated Circuit
 0
 8
 8
+Library
+QFN40P400X400X100-33N-D
+RSM (S-PVQFN-N32)
+Integrated Circuit
+0
+33
+33
 Library
 QFN65P600X600X100-29N-D
 HVQFN-28
