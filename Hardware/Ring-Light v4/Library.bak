@@ -1375,7 +1375,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -19.304 22.352 0)
+			(at -14.224 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1384,7 @@
 			)
 		)
 		(property "Value" "CP2102N-A02-GQFN20R"
-			(at -19.05 -29.21 0)
+			(at -13.97 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1392,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CP2102NA02GQFN20"
+		(property "Footprint" "Library:CP2102NA02GQFN20"
 			(at 46.99 -94.92 0)
 			(effects
 				(font
@@ -1413,7 +1413,7 @@
 			)
 		)
 		(property "Description" "Full Speed USB to UART Bridge USB 2.0 3.3V T/R Automotive 20-Pin QFN EP"
-			(at 0 -30.48 0)
+			(at 2.54 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,8 +1493,8 @@
 		)
 		(symbol "CP2102N-A02-GQFN20R_1_1"
 			(rectangle
-				(start -19.05 20.32)
-				(end 19.05 -28.5749)
+				(start -13.97 24.13)
+				(end 13.97 -24.7649)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1504,7 +1504,7 @@
 				)
 			)
 			(pin passive line
-				(at -24.13 17.78 0)
+				(at -19.05 21.59 0)
 				(length 5.08)
 				(name "VREGIN"
 					(effects
@@ -1522,7 +1522,25 @@
 				)
 			)
 			(pin passive line
-				(at -24.13 13.97 0)
+				(at -19.05 17.78 0)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 8.89 0)
 				(length 5.08)
 				(name "D+"
 					(effects
@@ -1540,7 +1558,7 @@
 				)
 			)
 			(pin passive line
-				(at -24.13 10.16 0)
+				(at -19.05 6.35 0)
 				(length 5.08)
 				(name "D-"
 					(effects
@@ -1558,16 +1576,16 @@
 				)
 			)
 			(pin passive line
-				(at -24.13 3.81 0)
+				(at -19.05 -2.54 0)
 				(length 5.08)
-				(name "GND_1"
+				(name "~{RST}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1576,79 +1594,7 @@
 				)
 			)
 			(pin passive line
-				(at -24.13 1.27 0)
-				(length 5.08)
-				(name "GND_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -1.27 0)
-				(length 5.08)
-				(name "EP_GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -24.13 -11.43 0)
-				(length 5.08)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -24.13 -16.51 0)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 24.13 17.78 180)
+				(at -19.05 -8.89 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -1666,16 +1612,16 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 11.43 180)
+				(at -19.05 -16.51 0)
 				(length 5.08)
-				(name "RTS"
+				(name "GND_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1684,16 +1630,16 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 8.89 180)
+				(at -19.05 -19.05 0)
 				(length 5.08)
-				(name "RSTB"
+				(name "GND_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1702,16 +1648,16 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 6.35 180)
+				(at -19.05 -21.59 0)
 				(length 5.08)
-				(name "WAKEUP"
+				(name "EP_GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1720,61 +1666,7 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 3.81 180)
-				(length 5.08)
-				(name "SUSPEND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 24.13 1.27 180)
-				(length 5.08)
-				(name "SUSPENDB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 24.13 -1.27 180)
-				(length 5.08)
-				(name "CTS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 24.13 -6.35 180)
+				(at 19.05 19.05 180)
 				(length 5.08)
 				(name "TXD"
 					(effects
@@ -1792,7 +1684,7 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 -8.89 180)
+				(at 19.05 16.51 180)
 				(length 5.08)
 				(name "RXD"
 					(effects
@@ -1810,7 +1702,115 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 -17.78 180)
+				(at 19.05 3.81 180)
+				(length 5.08)
+				(name "SUSPEND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 1.27 180)
+				(length 5.08)
+				(name "~{SUSPEND}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -3.81 180)
+				(length 5.08)
+				(name "CTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -6.35 180)
+				(length 5.08)
+				(name "WAKEUP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -8.89 180)
+				(length 5.08)
+				(name "RTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 19.05 -11.43 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -13.97 180)
 				(length 5.08)
 				(name "GPIO.2_/_TXT"
 					(effects
@@ -1828,7 +1828,7 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 -20.32 180)
+				(at 19.05 -16.51 180)
 				(length 5.08)
 				(name "GPIO.3_/_RXT"
 					(effects
@@ -1846,7 +1846,7 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 -22.86 180)
+				(at 19.05 -19.05 180)
 				(length 5.08)
 				(name "GPIO.1_/_RS485"
 					(effects
@@ -1864,7 +1864,7 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 -25.4 180)
+				(at 19.05 -21.59 180)
 				(length 5.08)
 				(name "GPIO.0_/_CLK"
 					(effects
