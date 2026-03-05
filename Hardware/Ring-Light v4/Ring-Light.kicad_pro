@@ -642,6 +642,26 @@
     [
       "7146df34-bb5a-4ab6-bd6d-8aad9726b4e6",
       "Root"
+    ],
+    [
+      "cbf711bc-3cf1-4aff-a749-f3b8b0d61f93",
+      "LEDs_1-16"
+    ],
+    [
+      "456d5ff6-dad7-487e-8684-f62e55a89eab",
+      "LEDs_17-32"
+    ],
+    [
+      "fdaac70b-54b8-4a78-a210-de38a02463ef",
+      "PWM_Drivers"
+    ],
+    [
+      "c2f37b26-c671-4816-894e-76608f82120e",
+      "MCU"
+    ],
+    [
+      "c1141922-a584-4d20-80ca-224cd90c2e59",
+      "Interface"
     ]
   ],
   "text_variables": {}
