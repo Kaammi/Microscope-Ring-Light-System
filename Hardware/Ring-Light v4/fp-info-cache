@@ -1,4 +1,4 @@
-26790319656645658
+26792092427952295
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70013,6 +70013,13 @@ LED
 0
 4
 4
+Library
+MM84302610RB3
+MM8430-2610RB3-6
+Connector
+0
+8
+8
 Library
 NCR321PASX
 NCR321PASX-3
