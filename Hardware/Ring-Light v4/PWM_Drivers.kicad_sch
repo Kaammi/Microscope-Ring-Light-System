@@ -3770,7 +3770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0555492a-c4b1-432b-8d05-8c7a16fe515e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0138"
 			(at 187.96 57.15 0)
 			(effects
 				(font
@@ -3820,7 +3820,7 @@
 		(instances
 			(project "Ring-Light"
 				(path "/7146df34-bb5a-4ab6-bd6d-8aad9726b4e6/fdaac70b-54b8-4a78-a210-de38a02463ef"
-					(reference "#PWR?")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -4056,7 +4056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b0d827a-79a6-4468-8b69-4e678106aaf5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0109"
 			(at 48.26 118.11 0)
 			(effects
 				(font
@@ -4107,7 +4107,7 @@
 		(instances
 			(project "Ring-Light"
 				(path "/7146df34-bb5a-4ab6-bd6d-8aad9726b4e6/fdaac70b-54b8-4a78-a210-de38a02463ef"
-					(reference "#PWR?")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -5465,7 +5465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ab41e64-afa8-4160-a202-c48d6bf82d3d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0136"
 			(at 167.64 68.58 0)
 			(effects
 				(font
@@ -5516,7 +5516,7 @@
 		(instances
 			(project "Ring-Light"
 				(path "/7146df34-bb5a-4ab6-bd6d-8aad9726b4e6/fdaac70b-54b8-4a78-a210-de38a02463ef"
-					(reference "#PWR?")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -6289,7 +6289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba0e25a4-3830-4523-9e7d-eb80cc2ab054")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0107"
 			(at 40.64 93.98 0)
 			(effects
 				(font
@@ -6339,7 +6339,7 @@
 		(instances
 			(project "Ring-Light"
 				(path "/7146df34-bb5a-4ab6-bd6d-8aad9726b4e6/fdaac70b-54b8-4a78-a210-de38a02463ef"
-					(reference "#PWR?")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -6489,7 +6489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c79d1e71-b788-493a-9d5a-8766e8cc97d9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0133"
 			(at 46.99 69.85 0)
 			(effects
 				(font
@@ -6540,7 +6540,7 @@
 		(instances
 			(project "Ring-Light"
 				(path "/7146df34-bb5a-4ab6-bd6d-8aad9726b4e6/fdaac70b-54b8-4a78-a210-de38a02463ef"
-					(reference "#PWR?")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -6757,7 +6757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf341694-1f06-4585-85ac-1192502a0168")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0137"
 			(at 168.91 116.84 0)
 			(effects
 				(font
@@ -6808,7 +6808,7 @@
 		(instances
 			(project "Ring-Light"
 				(path "/7146df34-bb5a-4ab6-bd6d-8aad9726b4e6/fdaac70b-54b8-4a78-a210-de38a02463ef"
-					(reference "#PWR?")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -6890,7 +6890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0ce6434-7e9b-4ead-8652-c8e201f5386f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0135"
 			(at 161.29 92.71 0)
 			(effects
 				(font
@@ -6940,7 +6940,7 @@
 		(instances
 			(project "Ring-Light"
 				(path "/7146df34-bb5a-4ab6-bd6d-8aad9726b4e6/fdaac70b-54b8-4a78-a210-de38a02463ef"
-					(reference "#PWR?")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -7022,7 +7022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8b444e8-5c9d-48e6-9580-61c0435d8556")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0134"
 			(at 67.31 58.42 0)
 			(effects
 				(font
@@ -7072,7 +7072,7 @@
 		(instances
 			(project "Ring-Light"
 				(path "/7146df34-bb5a-4ab6-bd6d-8aad9726b4e6/fdaac70b-54b8-4a78-a210-de38a02463ef"
-					(reference "#PWR?")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)

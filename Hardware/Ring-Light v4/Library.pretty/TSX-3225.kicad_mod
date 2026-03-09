@@ -1,0 +1,165 @@
+(footprint "TSX-3225"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TSX-3225")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 13.7 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "e2420450-e4e9-4243-b91e-f3cf15c83f2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TSX-3225"
+		(at 13.7 -2.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5d695fc0-3914-4191-bf76-0f539cc19b94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cd343fe-f1c5-4fed-8ae8-d195d884d548")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "019a0bc9-71ca-4d08-a3c6-2ab9ac77cba8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.2 0.8)
+		(end -2.2 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eadef2e9-e12f-417f-b011-b3233aea3d71")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c481fd6e-67f7-49d0-a934-c097f4c50f1a")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95a958b2-4268-4be2-9939-093683385d1b")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ff1f61a-2651-4d75-85f5-9cb22e656435")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a968bad8-1744-4ea3-8483-6fc610e16e6e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 13.7 -2.2 0)
+		(layer "F.Fab")
+		(uuid "6f439e02-a4ed-416f-8065-ce13546b7851")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 0.8 90)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e12b4cf-5f0f-43f8-81e8-145f603989ef")
+	)
+	(pad "2" smd rect
+		(at 1.1 0.8 90)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "48daedd0-80df-4eb2-93c7-f826a6cebc15")
+	)
+	(pad "3" smd rect
+		(at 1.1 -0.8 90)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "016f57dd-1c85-4201-9454-cc91cb42e6a4")
+	)
+	(pad "4" smd rect
+		(at -1.1 -0.8 90)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6989f7c4-849d-4e3c-ad83-bb92c69a6dd8")
+	)
+	(embedded_fonts no)
+	(model "TSX-3225_24.0000MF20G-AC3.stp"
+		(offset
+			(xyz -0.009999999626 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/lib/TSX-3225_24.0000MF20G-AC3/TSX-3225_24.0000MF20G-AC3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

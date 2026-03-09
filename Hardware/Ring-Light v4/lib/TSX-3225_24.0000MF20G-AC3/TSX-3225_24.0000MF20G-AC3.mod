@@ -1,0 +1,48 @@
+PCBNEW-LibModule-V1  2026-03-08 06:19:13
+# encoding utf-8
+Units mm
+$INDEX
+TSX-3225
+$EndINDEX
+$MODULE TSX-3225
+Po 0 0 0 15 69ad14e1 00000000 ~~
+Li TSX-3225
+Cd TSX-3225
+Kw Crystal or Oscillator
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 13.7 -2.2 1.27 1.27 0 0.254 N V 21 N "Y**"
+T1 13.7 -2.2 1.27 1.27 0 0.254 N I 21 N "TSX-3225"
+DS -1.6 -1.25 1.6 -1.25 0.1 24
+DS 1.6 -1.25 1.6 1.25 0.1 24
+DS 1.6 1.25 -1.6 1.25 0.1 24
+DS -1.6 1.25 -1.6 -1.25 0.1 24
+DC -2.2 0.8 -2.1 0.8 0.254 21
+$PAD
+Po -1.1 0.8
+Sh "1" R 1.15 1.4 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1.1 0.8
+Sh "2" R 1.15 1.4 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1.1 -0.8
+Sh "3" R 1.15 1.4 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -1.1 -0.8
+Sh "4" R 1.15 1.4 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE TSX-3225
+$EndLIBRARY

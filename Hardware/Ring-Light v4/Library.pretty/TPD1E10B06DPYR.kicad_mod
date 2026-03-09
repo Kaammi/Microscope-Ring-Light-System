@@ -1,0 +1,245 @@
+(footprint "TPD1E10B06DPYR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TPD1E10B06DPYR-2")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "D**"
+		(at -0.7 0 0)
+		(layer "F.SilkS")
+		(uuid "652d6eac-6ff6-4b00-85e2-6c0720f80afd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TPD1E10B06DPYR"
+		(at -0.7 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a5ccae0d-69d3-4727-999a-056bc6af2694")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "760589bf-d086-4a6d-9fce-b6943dad3db4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddf8b89e-c6c6-4a75-a554-c2baf7527514")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 0)
+		(end -2.2 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a3d540a-5704-41ec-81e1-95a58237867d")
+	)
+	(fp_line
+		(start -2.2 0)
+		(end -2.2 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1add71c-0669-4d11-bea7-a975e1f7f7a5")
+	)
+	(fp_line
+		(start -2.1 0)
+		(end -2.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cab7df2f-ddb1-44dc-a0b2-5d763644d8c0")
+	)
+	(fp_arc
+		(start -2.2 0)
+		(mid -2.15 -0.05)
+		(end -2.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae2e8acc-8a9c-4bae-862e-5f5d1f52e1ed")
+	)
+	(fp_arc
+		(start -2.1 0)
+		(mid -2.15 0.05)
+		(end -2.2 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d68f8bb-6c48-4adb-94e1-ced00e8e6eb0")
+	)
+	(fp_arc
+		(start -2.1 0)
+		(mid -2.15 0.05)
+		(end -2.2 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a3d205b-fdd8-4c2b-8a31-8a2d284cc306")
+	)
+	(fp_line
+		(start -1 -0.5)
+		(end 1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "624b771a-1910-4f45-81c6-8f2958b82895")
+	)
+	(fp_line
+		(start -1 0.5)
+		(end -1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63a2e4a4-d9d9-44d8-9131-17df2f7acf1f")
+	)
+	(fp_line
+		(start 1 -0.5)
+		(end 1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d36a261-c5c5-4aec-ac28-d5b9edb61f93")
+	)
+	(fp_line
+		(start 1 0.5)
+		(end -1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "830f82e1-218f-4175-babf-1a56128dc6f0")
+	)
+	(fp_line
+		(start -0.5 -0.3)
+		(end -0.5 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "288ff4a1-41a2-4865-b6d7-78bdfb32e654")
+	)
+	(fp_line
+		(start -0.5 0.3)
+		(end 0.5 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6636f525-2760-48cf-8412-5d12344ce187")
+	)
+	(fp_line
+		(start 0.5 -0.3)
+		(end -0.5 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2ba8b8a-bb92-46f5-9a97-dfe4689565a6")
+	)
+	(fp_line
+		(start 0.5 0.3)
+		(end 0.5 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69a72085-c11f-4bc3-9d5e-056f6effa7ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.7 0 0)
+		(layer "F.Fab")
+		(uuid "1fc66d9f-a3cd-427e-8cec-f6ff6fce598e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 0 90)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d48c460a-ee5b-43a6-bc9c-694ef2434732")
+	)
+	(pad "2" smd rect
+		(at 0.5 0 90)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b8d03168-5125-4284-b559-39ecf82884ee")
+	)
+	(embedded_fonts no)
+	(model "TPD1E10B06DPYR.stp"
+		(offset
+			(xyz 0 0 0.04999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/lib/TPD1E10B06DPYR/TPD1E10B06DPYR.stp"
+		(offset
+			(xyz 0 0 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

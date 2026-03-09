@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPD1E10B06DPYR
+D ESD Suppressors / TVS Diodes Sgl Channel ESD TPD1E10B06 Single-Channel ESD Protection Diode in 0402 Package
+K
+F https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1599077798252&ref_url=https%253A%252F%252Fwww.mouser.com%252F
+$ENDCMP
+#
+#End Doc Library
