@@ -3678,48 +3678,6 @@
 		)
 	)
 	(sheet
-		(at 43.18 69.85)
-		(size 41.91 31.75)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c1141922-a584-4d20-80ca-224cd90c2e59")
-		(property "Sheetname" "Interface"
-			(at 43.18 69.1384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Interface.kicad_sch"
-			(at 43.18 102.1846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Ring-Light"
-				(path "/7146df34-bb5a-4ab6-bd6d-8aad9726b4e6"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 157.48 59.69)
 		(size 59.69 45.72)
 		(exclude_from_sim no)
@@ -3751,56 +3709,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "JTAG_TCK" input
-			(at 157.48 68.58 180)
-			(uuid "426547b9-3310-4c45-bfba-5a3ab2f5c9d1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "JTAG_TDI" input
-			(at 157.48 71.12 180)
-			(uuid "9ddac280-cce4-4220-8756-14139d08cca7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "JTAG_TDO" input
-			(at 157.48 73.66 180)
-			(uuid "8efc9941-d923-4f3a-a2f9-92190b92797c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "JTAG_TMS" input
-			(at 157.48 76.2 180)
-			(uuid "f38a4a27-7e17-42a7-b5ee-de91348701ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MCU_RESET" input
-			(at 157.48 78.74 180)
-			(uuid "c328ef37-0203-4114-8be2-72ebdd51bb5b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "SCL" output
