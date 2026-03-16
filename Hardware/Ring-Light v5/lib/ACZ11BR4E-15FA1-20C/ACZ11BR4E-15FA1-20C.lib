@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ACZ11BR4E-15FA1-20C
+#/13818610/1014753/2.50/7/2/Connector
+DEF ACZ11BR4E-15FA1-20C J 0 30 Y Y 1 F N
+F0 "J" 850 500 50 H V L CNN
+F1 "ACZ11BR4E-15FA1-20C" 850 400 50 H V L CNN
+F2 "ACZ11BR4E15FA120C" 850 300 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/ACZ11BR4E-15FA1-20C.pdf" 850 200 50 H I L CNN
+F4 "ACZ11 Series - 11 mm, 12 ~ 20 PPR, Through Hole, Mechanical Panel Mount Encoder" 850 100 50 H I L CNN "Description"
+F5 "13.75" 850 0 50 H I L CNN "Height"
+F6 "Same Sky" 850 -100 50 H I L CNN "Manufacturer_Name"
+F7 "ACZ11BR4E-15FA1-20C" 850 -200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "490-ACZ11E15FA120C" 850 -300 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Same-Sky/ACZ11BR4E-15FA1-20C?qs=WyjlAZoYn521vRzc3WQA5g%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F10 "ACZ11BR4E-15FA1-20C" 850 -500 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/acz11br4e-15fa1-20c/cui-devices" 850 -600 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X A1 A1 400 -500 200 U 50 50 0 0 P
+X B1 B1 600 -500 200 U 50 50 0 0 P
+X C1 C1 500 -500 200 U 50 50 0 0 P
+X S1 S1 400 500 200 D 50 50 0 0 P
+X S2 S2 500 500 200 D 50 50 0 0 P
+X MH1 MH1 0 0 200 R 50 50 0 0 P
+X MH2 MH2 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 300 800 300 800 -300 200 -300 200 300 N
+ENDDRAW
+ENDDEF
+#
+#End Library

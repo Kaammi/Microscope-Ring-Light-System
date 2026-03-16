@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TSX-3225_24.0000MF20G-AC3
+D 24MHz +/-10ppm Crystal 9pF 40 Ohms 4-SMD, No Lead
+K
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf
+$ENDCMP
+#
+#End Doc Library

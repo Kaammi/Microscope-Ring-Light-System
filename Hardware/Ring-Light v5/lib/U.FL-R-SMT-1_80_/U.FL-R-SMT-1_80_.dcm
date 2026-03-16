@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP U.FL-R-SMT-1_80_
+D U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder , 6 GHz , -40C ~ 90C
+K
+F https://www.hirose.com/en/product/document?clcode=CL0331-0472-2-80&productname=U.FL-R-SMT-1(80)&series=U.FL&documenttype=2DDrawing&lang=en&documentid=0001257922
+$ENDCMP
+#
+#End Doc Library

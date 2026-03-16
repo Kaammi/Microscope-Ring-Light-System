@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS92624QPWPRQ1
+D TPS92624-Q1 Four-Channel, Automotive High Side LED Driver with Thermal Sharing Control
+K
+F https://www.ti.com/lit/ds/symlink/tps92624-q1.pdf?ts=1694767333380&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS92624-Q1%252Fpart-details%252FTPS92624QPWPRQ1%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Docb-tistore-pr
+$ENDCMP
+#
+#End Doc Library
