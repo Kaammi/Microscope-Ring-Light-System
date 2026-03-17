@@ -2635,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 35.56) (xy 104.14 49.53)
+			(xy 104.14 40.64) (xy 104.14 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2945,7 +2945,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 29.21) (xy 104.14 30.48)
+			(xy 104.14 29.21) (xy 104.14 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3085,7 +3085,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 35.56) (xy 95.25 49.53)
+			(xy 95.25 40.64) (xy 95.25 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3245,7 +3245,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 29.21) (xy 138.43 30.48)
+			(xy 138.43 29.21) (xy 138.43 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3345,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 49.53) (xy 138.43 35.56)
+			(xy 138.43 49.53) (xy 138.43 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3365,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 30.48) (xy 127 29.21)
+			(xy 127 35.56) (xy 127 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3605,7 +3605,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 29.21) (xy 115.57 30.48)
+			(xy 115.57 29.21) (xy 115.57 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3635,7 +3635,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 29.21) (xy 95.25 30.48)
+			(xy 95.25 29.21) (xy 95.25 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3665,7 +3665,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 35.56) (xy 127 49.53)
+			(xy 127 40.64) (xy 127 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3685,7 +3685,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 35.56) (xy 115.57 49.53)
+			(xy 115.57 40.64) (xy 115.57 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3852,7 +3852,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 104.14 33.02 0)
+		(at 104.14 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3860,7 +3860,7 @@
 		(dnp no)
 		(uuid "0cc9da32-fb7c-4e5e-a1a6-1ce98eb61fc0")
 		(property "Reference" "C26"
-			(at 106.68 32.258 0)
+			(at 106.68 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +3869,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 106.68 34.036 0)
+			(at 106.68 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +3878,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 104.14 33.02 0)
+			(at 104.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,7 +3887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 33.02 0)
+			(at 104.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +3896,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 33.02 0)
+			(at 104.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,10 +4216,6 @@
 					(reference "R118")
 					(unit 1)
 				)
-				(path "/7146df34-bb5a-4ab6-bd6d-8aad9726b4e6/fdaac70b-54b8-4a78-a210-de38a02463ef"
-					(reference "R118")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4295,7 +4291,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 127 33.02 0)
+		(at 127 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4304,7 +4300,7 @@
 		(fields_autoplaced yes)
 		(uuid "4482a275-d1e0-4fc0-a4e4-3bddd2a3de2d")
 		(property "Reference" "C4"
-			(at 129.54 31.2038 0)
+			(at 129.54 36.2838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4309,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 129.54 33.7438 0)
+			(at 129.54 38.8238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 33.02 0)
+			(at 127 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 33.02 0)
+			(at 127 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4336,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 127 33.02 0)
+			(at 127 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4430,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 115.57 33.02 0)
+		(at 115.57 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4442,7 +4438,7 @@
 		(dnp no)
 		(uuid "4f9d28c0-6c96-46ab-8b9b-59b95d408e1e")
 		(property "Reference" "C9"
-			(at 118.11 32.258 0)
+			(at 118.11 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +4447,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 118.11 34.036 0)
+			(at 118.11 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4456,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 115.57 33.02 0)
+			(at 115.57 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 33.02 0)
+			(at 115.57 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4474,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 115.57 33.02 0)
+			(at 115.57 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +4908,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 95.25 33.02 0)
+		(at 95.25 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4920,7 +4916,7 @@
 		(dnp no)
 		(uuid "9e0b2bb7-c4a7-44a2-9b68-9c773b4bba14")
 		(property "Reference" "C30"
-			(at 97.79 32.258 0)
+			(at 97.79 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4925,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 97.79 34.036 0)
+			(at 97.79 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +4934,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 95.25 33.02 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 33.02 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +4952,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 95.25 33.02 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5621,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 138.43 33.02 0)
+		(at 138.43 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5634,7 +5630,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc7ddb43-3ed2-40ed-9026-eecb0c08983d")
 		(property "Reference" "C3"
-			(at 140.97 31.2038 0)
+			(at 140.97 36.2838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +5639,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 140.97 33.7438 0)
+			(at 140.97 38.8238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 33.02 0)
+			(at 138.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +5657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 33.02 0)
+			(at 138.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +5666,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 138.43 33.02 0)
+			(at 138.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
