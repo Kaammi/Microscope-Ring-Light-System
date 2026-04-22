@@ -474,26 +474,26 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NCR321PASX_1"
+		(symbol "Library:NCR321PASX"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at -5.08 11.176 0)
+			(property "Reference" "U"
+				(at -7.62 11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left top)
 				)
 			)
 			(property "Value" "NCR321PASX"
-				(at 4.318 -11.684 0)
+				(at -7.62 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left top)
 				)
 			)
 			(property "Footprint" "Library:NCR321PASX"
@@ -595,7 +595,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NCR321PASX_1_1_1"
+			(symbol "NCR321PASX_1_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 8.89 -10.16)
@@ -858,6 +858,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "LEDS 17-32\n"
+		(exclude_from_sim no)
+		(at 119.126 188.722 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "23d87c2e-47de-48dd-b636-4f7e945b2b5f")
 	)
 	(junction
 		(at 298.45 34.29)
@@ -3700,7 +3710,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 293.37 49.53 0)
 		(unit 1)
@@ -3925,7 +3934,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 97.79 100.33 0)
 		(unit 1)
@@ -4568,7 +4576,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 148.59 100.33 0)
 		(unit 1)
@@ -5584,7 +5591,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 48.26 100.33 0)
 		(unit 1)
@@ -5880,7 +5886,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 294.64 100.33 0)
 		(unit 1)
@@ -6261,7 +6266,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 146.05 49.53 0)
 		(unit 1)
@@ -6421,7 +6425,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 243.84 49.53 0)
 		(unit 1)
@@ -6648,7 +6651,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 48.26 49.53 0)
 		(unit 1)
@@ -8200,7 +8202,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 97.79 151.13 0)
 		(unit 1)
@@ -9251,7 +9252,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 48.26 151.13 0)
 		(unit 1)
@@ -9752,7 +9752,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 198.12 152.4 0)
 		(unit 1)
@@ -9979,7 +9978,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 196.85 100.33 0)
 		(unit 1)
@@ -10271,7 +10269,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 148.59 152.4 0)
 		(unit 1)
@@ -10431,7 +10428,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 97.79 49.53 0)
 		(unit 1)
@@ -10964,7 +10960,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 195.58 49.53 0)
 		(unit 1)
@@ -12347,7 +12342,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 245.11 100.33 0)
 		(unit 1)

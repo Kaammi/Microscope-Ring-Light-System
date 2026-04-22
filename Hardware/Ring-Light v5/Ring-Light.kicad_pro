@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.2,
-          "width": 1.2
+          "height": 2.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|104175000|39900000|d7a134e0-3ae3-4ba5-9512-f0cad4204e14|bb229557-f72e-45a6-95ca-4161e7505f8d",
+          ""
+        ],
+        [
+          "clearance|104175000|45700000|d052f32b-53ad-4f77-9c60-13f6ec227943|c3ba15c2-ac9f-4e47-b962-7bced1fc55a6",
+          ""
+        ],
+        [
+          "clearance|106975000|60602500|256f54a1-dfd8-4d4f-883d-9a8a0ae6988e|37660078-75ca-41fa-b2c5-7a7dbda648a8",
+          ""
+        ],
+        [
+          "clearance|107125000|58162500|6b5937c7-57ec-4287-8d92-7adef5fb9699|985309a8-27d6-4822-b37a-29391937e910",
+          ""
+        ],
+        [
+          "clearance|107475000|60602500|37660078-75ca-41fa-b2c5-7a7dbda648a8|5766ef61-c28d-43ba-8e7e-1e083ec7588a",
+          ""
+        ],
+        [
+          "clearance|107625000|58162500|11bc0efb-e343-4997-8743-72e98a1d1c9f|6b5937c7-57ec-4287-8d92-7adef5fb9699",
+          ""
+        ],
+        [
+          "clearance|107975000|60602500|5766ef61-c28d-43ba-8e7e-1e083ec7588a|e0063a48-f073-4c47-b007-4de5317f9e09",
+          ""
+        ],
+        [
+          "clearance|108125000|58162500|ba8ee662-df84-49e5-866d-fc869f1de194|11bc0efb-e343-4997-8743-72e98a1d1c9f",
+          ""
+        ],
+        [
+          "clearance|98125000|45700000|c5eef9cb-2c6b-4c4a-a6f7-82a44d6bd23a|5ec9792e-bbfc-47da-b791-8fb157c6bc55",
+          ""
+        ],
+        [
+          "clearance|98250000|39775000|1ef1f164-ae79-40d6-9b7b-d7bebe42c2c3|5d3e0658-6a47-4098-9091-07ebb30f85f8",
+          ""
+        ],
+        [
+          "shorting_items|117190000|34550000|bc796aa6-cb32-40fa-ab67-cb27df8bb327|d72d64a6-7461-4f2d-8660-58ddf3b11814",
+          ""
+        ],
+        [
+          "shorting_items|117490000|34250000|4dadfef4-d586-4fdd-b5fb-e1256f4864e5|bc796aa6-cb32-40fa-ab67-cb27df8bb327",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -135,10 +184,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -519,7 +568,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "manufacturing output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -630,7 +679,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "sch2",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

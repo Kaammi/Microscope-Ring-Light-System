@@ -474,26 +474,26 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NCR321PASX_1"
+		(symbol "Library:NCR321PASX"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at -5.08 11.176 0)
+			(property "Reference" "U"
+				(at -7.62 11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left top)
 				)
 			)
 			(property "Value" "NCR321PASX"
-				(at 4.318 -11.684 0)
+				(at -7.62 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left top)
 				)
 			)
 			(property "Footprint" "Library:NCR321PASX"
@@ -595,7 +595,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NCR321PASX_1_1_1"
+			(symbol "NCR321PASX_1_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 8.89 -10.16)
@@ -858,6 +858,117 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "LEDS 1-16\n"
+		(exclude_from_sim no)
+		(at 109.728 186.69 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "33e1fbc4-dd29-49ad-a0f1-f1231c2a07f0")
 	)
 	(junction
 		(at 210.82 57.15)
@@ -978,6 +1089,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b2cbd7c-fd3e-41de-8ac5-2caf67224dfb")
+	)
+	(junction
+		(at 26.67 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71de37bd-f768-4a60-9211-fbb400ce9b08")
 	)
 	(junction
 		(at 259.08 57.15)
@@ -1399,6 +1516,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 54.61) (xy 26.67 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bb086c-a184-4dd9-961e-95270475d80e")
+	)
+	(wire
+		(pts
 			(xy 124.46 48.26) (xy 124.46 55.88)
 		)
 		(stroke
@@ -1756,6 +1883,16 @@
 			(type default)
 		)
 		(uuid "4e4eec59-38e0-4858-8924-331e8518282e")
+	)
+	(wire
+		(pts
+			(xy 19.05 54.61) (xy 26.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f42fb76-0e9b-4286-a742-2eb15f60c649")
 	)
 	(wire
 		(pts
@@ -2369,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 48.26) (xy 26.67 55.88)
+			(xy 26.67 48.26) (xy 26.67 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3631,7 +3768,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 142.24 100.33 0)
 		(unit 1)
@@ -4229,7 +4365,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 190.5 100.33 0)
 		(unit 1)
@@ -4537,7 +4672,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 190.5 49.53 0)
 		(unit 1)
@@ -5596,7 +5730,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 287.02 49.53 0)
 		(unit 1)
@@ -6294,7 +6427,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 140.97 49.53 0)
 		(unit 1)
@@ -6937,7 +7069,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 92.71 151.13 0)
 		(unit 1)
@@ -7302,7 +7433,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 190.5 151.13 0)
 		(unit 1)
@@ -7462,7 +7592,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 238.76 100.33 0)
 		(unit 1)
@@ -8326,7 +8455,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 288.29 100.33 0)
 		(unit 1)
@@ -8971,7 +9099,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 140.97 151.13 0)
 		(unit 1)
@@ -9196,7 +9323,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 238.76 49.53 0)
 		(unit 1)
@@ -9577,7 +9703,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 92.71 100.33 0)
 		(unit 1)
@@ -9737,7 +9862,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 43.18 151.13 0)
 		(unit 1)
@@ -10181,7 +10305,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 43.18 100.33 0)
 		(unit 1)
@@ -12039,7 +12162,72 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
+		(lib_id "power:PWR_FLAG")
+		(at 19.05 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1ad3fc4-73b5-4ca7-9caf-65790841cf8c")
+		(property "Reference" "#FLG06"
+			(at 19.05 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 19.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 19.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdc826b7-e7a1-4fe1-9d37-e2f8f3942f8c")
+		)
+		(instances
+			(project "Ring-Light"
+				(path "/7146df34-bb5a-4ab6-bd6d-8aad9726b4e6/cbf711bc-3cf1-4aff-a749-f3b8b0d61f93"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:NCR321PASX")
 		(at 43.18 49.53 0)
 		(unit 1)
@@ -12351,7 +12539,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NCR321PASX_1")
 		(lib_id "Library:NCR321PASX")
 		(at 92.71 49.53 0)
 		(unit 1)
